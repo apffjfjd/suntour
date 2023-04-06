@@ -70,7 +70,7 @@ nextBtn2.addEventListener("click", () => {
 prevBtn2.addEventListener("click", () => {
   if (counter <= 0) {
     carouselSlides2.style.transition = "none";
-    counter = carouselImages2.length - 1;
+    counter = Math.floor(carouselImages2.length / 4);
     carouselSlides2.style.transform =
       "translateX(" + -fullSize * counter + "px)";
   } else {
