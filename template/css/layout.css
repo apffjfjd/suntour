@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 6vh;
+  height: 7vh;
   min-height: 6vh;
   position: fixed;
   top: 0;
@@ -22,6 +22,10 @@
 .header__logo {
   /* border: 1px solid black; */
   margin-left: 2rem;
+}
+
+.logo__link > img {
+  width: 8rem;
 }
 
 .header__nav {
@@ -45,7 +49,7 @@
 footer {
   background: linear-gradient(92.76deg, #f2bf0a 2.29%, #47afd0 66.41%);
   position: fixed;
-  height: 33vh;
+  height: 25vh;
   left: 0;
   bottom: 0;
   width: 100vw;

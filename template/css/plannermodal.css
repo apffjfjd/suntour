@@ -1,0 +1,38 @@
+/* 모달창 스타일 */
+.modal {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* 모달창 배경 스타일 */
+.modal::backdrop {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal__btn {
+  margin-bottom: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  width: auto;
+  height: auto;
+  background: #47afd0;
+  border-radius: 10px;
+  transition: background-color 0.2s;
+  color: white;
+  font-weight: 900;
+  z-index: 999;
+}
+.modal__btn:hover {
+  background: var(--yellow);
+}
