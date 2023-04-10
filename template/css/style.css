@@ -4,6 +4,8 @@
 @import "./planner.css";
 @import "./search.css";
 @import "./plannermodal.css";
+@import "./talkmodal.css";
+@import "./payment.css";
 
 :root {
   --black: #181823;

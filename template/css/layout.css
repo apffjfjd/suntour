@@ -9,7 +9,7 @@
   left: 0;
   width: 100vw;
   transition: all 0.3s ease-in-out;
-  z-index: 9999;
+  z-index: 99;
 }
 .visible {
   background: linear-gradient(

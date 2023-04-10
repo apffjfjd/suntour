@@ -1,0 +1,8 @@
+.payment {
+  display: flex;
+  justify-content: center;
+}
+.payment__form {
+  width: 50vw;
+  height: 90vh;
+}
