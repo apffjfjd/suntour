@@ -6,6 +6,7 @@
 @import "./plannermodal.css";
 @import "./talkmodal.css";
 @import "./payment.css";
+@import "./qna.css";
 
 :root {
   --black: #181823;
