@@ -7,6 +7,8 @@
 @import "./talkmodal.css";
 @import "./payment.css";
 @import "./qna.css";
+@import "./admin_noticelist.css";
+@import "./admin_noticewrite.css";
 
 :root {
   --black: #181823;
@@ -24,6 +26,6 @@ body {
 main {
   height: 100%;
   min-height: 100%;
-  margin: 7vh 0 40vh 0;
-  /* border: 2px solid green; */
+  margin: 7vh auto 40vh auto;
+  border: 2px solid green;
 }

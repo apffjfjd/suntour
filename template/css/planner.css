@@ -65,6 +65,7 @@
   height: 23rem;
   margin-left: 0.21rem;
   margin-top: 0.2rem;
+  cursor: pointer;
 }
 .thumbnail__txt {
   width: 16.4rem;
