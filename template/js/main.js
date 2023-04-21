@@ -3,14 +3,14 @@ const carouselSlideFull = document.querySelector(".carousel--theme-full");
 const carouselImagesFull = document.querySelectorAll(
   ".carousel__box--theme-full"
 );
-const prevBtnFull = document.querySelector(".btn--theme-full.prev");
-const nextBtnFull = document.querySelector(".btn--theme-full.next");
+const prevBtnFull = document.querySelector(".btn__carousel--main-full.prev");
+const nextBtnFull = document.querySelector(".btn__carousel--main-full.next");
 
 // 4분할 사이즈 캐러셀 요소 변수 설정
 const carouselSlides2 = document.querySelector(".carousel--theme-div2");
 const carouselImages2 = document.querySelectorAll(".carousel__box--theme-div2");
-const prevBtn2 = document.querySelector(".btn--theme-div2.prev");
-const nextBtn2 = document.querySelector(".btn--theme-div2.next");
+const prevBtn2 = document.querySelector(".btn__carousel--main-div2.prev");
+const nextBtn2 = document.querySelector(".btn__carousel--main-div2.next");
 
 // 첫 화면 세팅
 let counter = 0;
@@ -53,8 +53,9 @@ prevBtnFull.addEventListener("click", () => {
 });
 
 // 4분할 사이즈 캐러셀 버튼 클릭 이벤트 제어
+const NUM_OF_DIVISION = 4;
 nextBtn2.addEventListener("click", () => {
-  if (counter >= Math.floor(carouselImages2.length / 4)) {
+  if (counter >= Math.floor(carouselImages2.length / NUM_OF_DIVISION)) {
     carouselSlides2.style.transition = "none";
     counter = 0;
     carouselSlides2.style.transform =
@@ -70,7 +71,7 @@ nextBtn2.addEventListener("click", () => {
 prevBtn2.addEventListener("click", () => {
   if (counter <= 0) {
     carouselSlides2.style.transition = "none";
-    counter = Math.floor(carouselImages2.length / 4);
+    counter = Math.floor(carouselImages2.length / NUM_OF_DIVISION);
     carouselSlides2.style.transform =
       "translateX(" + -fullSize * counter + "px)";
   } else {
