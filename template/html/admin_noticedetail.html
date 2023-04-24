@@ -25,11 +25,19 @@
         <article class="admin__notice-detail--sheet">
           <form class="admin__notice-detail--form">
             <ul class="admin__noitce-detail--list">
-              <li class="admin__notice-detail--component">
+              <li class="admin__notice-component">
                 <span>작성자: </span>
                 <span>${dto.user_id}</span>
               </li>
-              <li class="admin__notice-detail--component">
+              <li class="admin__notice-component">
+                <span>권한: </span>
+                <span>${dto.auth}</span>
+              </li>
+              <li class="admin__notice-component">
+                <span>카테고리: </span>
+                <span>${dto.category}</span>
+              </li>
+              <li class="admin__notice-component">
                 <label for="qna_title">제목: </label>
                 <input
                   name="qna_title"
@@ -38,15 +46,7 @@
                   value="${dto.qna_title}"
                 />
               </li>
-              <li class="admin__notice-detail--component">
-                <span>권한: </span>
-                <span>${dto.auth}</span>
-              </li>
-              <li class="admin__notice-detail--component">
-                <span>카테고리: </span>
-                <span>${dto.category}</span>
-              </li>
-              <li class="admin__notice-detail--component">
+              <li class="admin__notice-component">
                 <label for="qna_content">내용: </label>
                 <input
                   name="qna_content"

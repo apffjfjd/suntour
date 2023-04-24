@@ -50,19 +50,7 @@
   height: auto;
   /* border: 2px solid limegreen; */
 }
-.btn {
-  z-index: 99;
-  color: white;
-  background-color: #47afd0;
-  transition: all 0.5s;
-  /* visibility: hidden; */
-}
-.btn__carousel {
-  opacity: 0.5;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-}
+
 .btn__carousel--main-full {
   position: absolute;
   bottom: 35rem;
