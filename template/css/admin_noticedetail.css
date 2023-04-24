@@ -1,5 +1,4 @@
 .admin__notice-detail {
-  border: 1px solid orange;
   width: 90%;
   height: 100%;
 }
@@ -10,16 +9,12 @@
   font-size: 1.5rem;
 }
 .admin__notice-detail--sheet {
-  border: 1px solid yellow;
 }
 .admin__notice-detail--form {
-  border: 1px solid green;
 }
 .admin__notice-detail--list {
-  border: 1px solid blue;
 }
 .admin__notice-detail--component {
-  border: 1px solid darkblue;
   margin-bottom: 1rem;
 }
 .admin__notice-detail--component > span,
@@ -31,19 +26,6 @@ input {
 .admin__notice-detail--btns {
   display: flex;
 }
-.btn--theme-admin {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 20px;
-  width: auto;
-  height: auto;
-  background-color: var(--blue);
-  border-radius: 10px;
-  transition: background-color 0.2s;
-  color: white;
-  font-weight: 900;
-}
-.btn--theme-normal:hover {
-  background: var(--yellow);
+.btn__normal--admin-noticedetail {
+  margin-left: 1rem;
 }

@@ -21,3 +21,12 @@
   border-radius: 10px;
   font-weight: 900;
 }
+.btn__normal:hover {
+  background: var(--yellow);
+}
+
+.admin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
